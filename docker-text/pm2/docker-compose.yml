@@ -1,0 +1,5 @@
+app-pm2:
+  container_name: app-pm2
+  build: .
+  ports:
+    - "3000:3000"
